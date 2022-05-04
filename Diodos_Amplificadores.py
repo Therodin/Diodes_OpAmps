@@ -31,7 +31,7 @@ def processarDiodo(diodotype):
 def start():
     print('Calculadora de Diodos e Amplificadores operacionais')
     while True:
-        diodotype = input('Qual Diodo você deseja calcular? [Germânio] ou [Silício] ou gostaria de calcular op-amps: [Inversor] ou [Não-inversor?] ')
+        diodotype = input('Qual Diodo você deseja calcular? [Germânio] ou [Silício] ou gostaria de calcular op-amps: [Inversor] ou [Não-inversor]? ')
         processarDiodo(diodotype) 
         if diodotype == ' ':
             break
